@@ -1,0 +1,153 @@
+
+
+img
+{
+	vertical-align: center;
+}
+
+header
+{
+	padding: 1em;
+	font-size: 14pt;
+	text-align: center;
+	background-color: rgb(185,220,255);
+	border-bottom: 5px dashed rgb(28,63,115);
+	border-top: 2px dashed rgb(28,63,115);
+	border-right: 2px dashed rgb(28,63,115);
+	border-left: 2px dashed rgb(28,63,115);
+}
+
+body
+{
+	background-color: rgb(242,245,255);
+}
+
+main
+{
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 15px;
+	margin: 2pt;
+	font-family: Georgia,Arial;
+	font-size: 14pt;
+	color: rgb(30,96,84);
+}
+
+section
+{
+	float:left;
+	padding: 10px;
+	width: 25%;
+}
+
+aside
+{
+	background-color: rgb(206,203,224);
+	float: right;
+	padding: 5px;
+	width: 50%;
+	border-left: 2px solid rgb(28,63,115);
+	border-top: 2px solid rgb(28,63,115);
+	border-bottom: 2px solid rgb(28,63,115);
+	font-family: Georgia, Arial;
+}
+
+.aside1
+{
+	font-size: 16pt;
+	font-family: Georgia,Arial;
+	margin-left: 2em;
+}
+
+form
+{
+	padding: 10pt;
+	background-color: rgb(222,220,235);
+	border: 1pt solid black;
+	border-radius: 5px;
+	font-family: Georgia,Arial;
+	font-size: 12pt;
+}
+
+label
+{
+	float: left;
+	width: 8em;
+	text-align: right;
+}
+
+input
+{
+	margin-left: 1em;
+	border: 1pt solid black;
+	font-family: Georgia,Arial;
+}
+
+input:focus
+{
+	border: 2pt solid blue;
+}
+
+textarea
+{
+	height: 5em;
+	width: 20em;
+	margin-left: 1em;
+	border: 1pt solid black;
+	font-family: Georgia,Arial;
+	font-size: 11pt;
+}
+
+select
+{
+	margin-left: 1em;
+	border: 1pt solid black;
+	font-family: Georgia,Arial;
+	font-size: 11pt;
+	margin-bottom: 2em;
+}
+
+#button
+{
+	margin-left: 10em;
+	background-color: silver;
+	font-family: Georgia,Arial;
+	font-size: 11pt;
+	color: black;
+	border: 1pt solid black;
+	padding: 1pt;
+}
+
+#button2
+{
+	margin-left: 5em;
+	background-color: silver;
+}
+
+#feedback
+{
+	float: right;
+	padding: 2px;
+}
+
+nav
+{
+	background-color: rgb(185,220,255);
+	clear: both;
+	font-family: Georgia,Arial;
+	font-size: 11pt;
+	padding: 3px;
+	border-top: 2px dashed rgb(28,63,115);
+}
+
+footer
+{
+	clear: both;
+	font-family: Georgia,Arial;
+	font-size: 9pt;
+	text-align: right;
+	padding: 2px;
+	border: 2px solid rgb(28,63,115);
+	background-color: silver;
+}
